@@ -1,0 +1,34 @@
+/* 
+  Localizable.strings
+  GoValet
+
+  Created by Ajeesh T S on 10/02/17.
+  Copyright © 2017 Ajeesh T S. All rights reserved.
+*/
+
+"Warning!" = "Warning!";
+"Please Enter Password" = "Please Enter Password";
+"Please Enter Email" = "Please Enter Email";
+"Please Enter Valid Email" = "Please Enter Valid Email";
+"Please verify your email address" = "Please verify your email address";
+"Resend" = "Resend";
+"Cancel" = "Cancel";
+"GPS access is restricted. In order to use tracking, please enable GPS in the Settigs app under Privacy, Location Services." = "GPS access is restricted. In order to use tracking, please enable GPS in the Settigs app under Privacy, Location Services.";
+"Go to Settings now" = "Go to Settings now";
+"You have been registered successfully, please Verfiy your Email" = "You have been registered successfully, please Verfiy your Email";
+"Ok" = "Ok";
+"By Clicking Confirm You Agree To Go Valet Turms Of Use And Privacy Policy." = "By Clicking Confirm You Agree To Go Valet Turms Of Use And Privacy Policy.";
+"Shift Staff Number" = "Shift Staff Number";
+"Payment" = "Payment";
+"Settings" = "Settings";
+"History" = "History";
+"Help" = "Help";
+"Logout" = "Logout";
+"HISTORY" = "HISTORY";
+"SETTINGS" = "SETTINGS";
+"EDIT ACCOUNT" = "EDIT ACCOUNT";
+"PAYMENT SUBSCRIPTION" = "PAYMENT SUBSCRIPTION";
+"Shift Staff Number" = "Shift Staff Number";
+"" = "";
+"" = "";
+"" = "";

@@ -1,0 +1,1107 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39A682F99E9664511218237D /* Pods_GoValetTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24E5C4D4BE12C7D9B35E8D8C /* Pods_GoValetTests.framework */; };
+		48003FC31E127D07006EA922 /* SideMenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48003FC21E127D07006EA922 /* SideMenuCell.swift */; };
+		48003FC51E127D1D006EA922 /* UserProfileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48003FC41E127D1D006EA922 /* UserProfileCell.swift */; };
+		4800CD0E1E051DD90024F9B0 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800CD0D1E051DD90024F9B0 /* BaseViewController.swift */; };
+		4800CD111E051E530024F9B0 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800CD101E051E530024F9B0 /* HomeViewController.swift */; };
+		4800CD141E054A7C0024F9B0 /* SideMenuListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4800CD131E054A7C0024F9B0 /* SideMenuListViewController.swift */; };
+		481192241E350E3800141186 /* CarListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481192231E350E3800141186 /* CarListTableViewCell.swift */; };
+		481192261E351D5400141186 /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481192251E351D5400141186 /* AddCarViewController.swift */; };
+		4812F48A1E1EA6F1009B7E7F /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4812F4891E1EA6F1009B7E7F /* ProfileViewController.swift */; };
+		483A52771E71C43D002701C8 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 483A52761E71C43D002701C8 /* Info.plist */; };
+		483A52871E71CB62002701C8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 483A52891E71CB62002701C8 /* InfoPlist.strings */; };
+		483E43C51E13B636002304E8 /* OneShotLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E43C41E13B636002304E8 /* OneShotLocationManager.swift */; };
+		483E43C81E13B6F9002304E8 /* UserServiceTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E43C71E13B6F9002304E8 /* UserServiceTaskManager.swift */; };
+		483E43CA1E13B72D002304E8 /* UserOperationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E43C91E13B72D002304E8 /* UserOperationService.swift */; };
+		483E43CD1E13BAE8002304E8 /* Hotel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E43CC1E13BAE8002304E8 /* Hotel.swift */; };
+		483E43CF1E13CC65002304E8 /* HotelListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E43CE1E13CC65002304E8 /* HotelListCell.swift */; };
+		483E43D21E158BF2002304E8 /* PaymentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483E43D11E158BF2002304E8 /* PaymentViewController.swift */; };
+		483FF9901E31105400E2236B /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483FF98F1E31105400E2236B /* HistoryViewController.swift */; };
+		483FF9921E31150100E2236B /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483FF9911E31150100E2236B /* HistoryTableViewCell.swift */; };
+		483FF9971E31179200E2236B /* CommonWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483FF9961E31179200E2236B /* CommonWebService.swift */; };
+		483FF9991E3117D500E2236B /* CommonTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 483FF9981E3117D500E2236B /* CommonTaskManager.swift */; };
+		485B4AD11E4E2873001E2C44 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 485B4AD31E4E2873001E2C44 /* Localizable.strings */; };
+		485B775E1E57725E0005D659 /* StaffCountUIViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485B775D1E57725E0005D659 /* StaffCountUIViewController.swift */; };
+		486EC2CB1E3A4E8C009C21C3 /* RequestTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 486EC2CA1E3A4E8C009C21C3 /* RequestTableViewCell.swift */; };
+		4870D3911E561F170096DA63 /* WebViewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4870D3901E561F170096DA63 /* WebViewViewController.swift */; };
+		487FA51F1E0272F500CE5322 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA51D1E0272F500CE5322 /* LoginViewController.swift */; };
+		487FA5201E0272F500CE5322 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA51E1E0272F500CE5322 /* SignUpViewController.swift */; };
+		487FA5241E02731F00CE5322 /* LoginServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA5221E02731F00CE5322 /* LoginServiceManager.swift */; };
+		487FA5251E02731F00CE5322 /* LoginWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 487FA5231E02731F00CE5322 /* LoginWebService.swift */; };
+		4880E8301E2D2B4D007D4692 /* ProfileEditViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4880E82F1E2D2B4D007D4692 /* ProfileEditViewController.swift */; };
+		488212651E01285200D3BE30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488212641E01285200D3BE30 /* AppDelegate.swift */; };
+		488212671E01285200D3BE30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488212661E01285200D3BE30 /* ViewController.swift */; };
+		4882126A1E01285200D3BE30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 488212681E01285200D3BE30 /* Main.storyboard */; };
+		4882126C1E01285200D3BE30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4882126B1E01285200D3BE30 /* Assets.xcassets */; };
+		4882126F1E01285200D3BE30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4882126D1E01285200D3BE30 /* LaunchScreen.storyboard */; };
+		4882127A1E01285200D3BE30 /* GoValetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488212791E01285200D3BE30 /* GoValetTests.swift */; };
+		488212851E01285200D3BE30 /* GoValetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488212841E01285200D3BE30 /* GoValetUITests.swift */; };
+		488212971E01303000D3BE30 /* BaseWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488212961E01303000D3BE30 /* BaseWebService.swift */; };
+		4882129D1E01307800D3BE30 /* WebServiceTaskManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4882129B1E01307800D3BE30 /* WebServiceTaskManager.swift */; };
+		4882129E1E01307800D3BE30 /* WebServiceTaskManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4882129C1E01307800D3BE30 /* WebServiceTaskManagerProtocol.swift */; };
+		488212A31E01309300D3BE30 /* AppSharedInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4882129F1E01309300D3BE30 /* AppSharedInfo.swift */; };
+		488212A41E01309300D3BE30 /* ExtensionMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488212A01E01309300D3BE30 /* ExtensionMethods.swift */; };
+		488212A51E01309300D3BE30 /* UtilityMethods.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488212A11E01309300D3BE30 /* UtilityMethods.swift */; };
+		488212A61E01309300D3BE30 /* Validator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488212A21E01309300D3BE30 /* Validator.swift */; };
+		488212A81E01310400D3BE30 /* UserInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488212A71E01310400D3BE30 /* UserInfo.swift */; };
+		48DD90141E37A4770033DA36 /* ManagerHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DD90131E37A4770033DA36 /* ManagerHomeViewController.swift */; };
+		48DD90171E37B85A0033DA36 /* ValetManagerWebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DD90161E37B85A0033DA36 /* ValetManagerWebService.swift */; };
+		48DD90191E37B89A0033DA36 /* ValetServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48DD90181E37B89A0033DA36 /* ValetServiceManager.swift */; };
+		48ED12911E6B2EBB00303072 /* getit.png in Resources */ = {isa = PBXBuildFile; fileRef = 48ED12931E6B2EBB00303072 /* getit.png */; };
+		48ED12951E6B2F0D00303072 /* getit@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48ED12971E6B2F0D00303072 /* getit@2x.png */; };
+		48ED12991E6B2F2C00303072 /* getit@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 48ED129B1E6B2F2C00303072 /* getit@3x.png */; };
+		A082530C3D1BBB3B57672D5E /* Pods_GoValet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59A583839BBECD5039BDA012 /* Pods_GoValet.framework */; };
+		C12C183E5C21F17C757FE6FD /* Pods_GoValetUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3809C015FA44E7C84E35CCF /* Pods_GoValetUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		488212761E01285200D3BE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488212591E01285200D3BE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488212601E01285200D3BE30;
+			remoteInfo = GoValet;
+		};
+		488212811E01285200D3BE30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 488212591E01285200D3BE30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 488212601E01285200D3BE30;
+			remoteInfo = GoValet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		24E5C4D4BE12C7D9B35E8D8C /* Pods_GoValetTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoValetTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EFC4B7C90B81909F559030D /* Pods-GoValetTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoValetTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoValetTests/Pods-GoValetTests.release.xcconfig"; sourceTree = "<group>"; };
+		48003FC21E127D07006EA922 /* SideMenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuCell.swift; sourceTree = "<group>"; };
+		48003FC41E127D1D006EA922 /* UserProfileCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserProfileCell.swift; sourceTree = "<group>"; };
+		4800CD0D1E051DD90024F9B0 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		4800CD101E051E530024F9B0 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4800CD131E054A7C0024F9B0 /* SideMenuListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SideMenuListViewController.swift; sourceTree = "<group>"; };
+		481192231E350E3800141186 /* CarListTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CarListTableViewCell.swift; sourceTree = "<group>"; };
+		481192251E351D5400141186 /* AddCarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
+		4812F4891E1EA6F1009B7E7F /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		483A52761E71C43D002701C8 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		483A52881E71CB62002701C8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		483A528A1E71CB64002701C8 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		483E43C41E13B636002304E8 /* OneShotLocationManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OneShotLocationManager.swift; sourceTree = "<group>"; };
+		483E43C71E13B6F9002304E8 /* UserServiceTaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserServiceTaskManager.swift; sourceTree = "<group>"; };
+		483E43C91E13B72D002304E8 /* UserOperationService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserOperationService.swift; sourceTree = "<group>"; };
+		483E43CC1E13BAE8002304E8 /* Hotel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hotel.swift; sourceTree = "<group>"; };
+		483E43CE1E13CC65002304E8 /* HotelListCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HotelListCell.swift; sourceTree = "<group>"; };
+		483E43D11E158BF2002304E8 /* PaymentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PaymentViewController.swift; sourceTree = "<group>"; };
+		483FF98F1E31105400E2236B /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		483FF9911E31150100E2236B /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		483FF9961E31179200E2236B /* CommonWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonWebService.swift; sourceTree = "<group>"; };
+		483FF9981E3117D500E2236B /* CommonTaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CommonTaskManager.swift; sourceTree = "<group>"; };
+		485B4AD21E4E2873001E2C44 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		485B775D1E57725E0005D659 /* StaffCountUIViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaffCountUIViewController.swift; sourceTree = "<group>"; };
+		486EC2CA1E3A4E8C009C21C3 /* RequestTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RequestTableViewCell.swift; sourceTree = "<group>"; };
+		4870D3901E561F170096DA63 /* WebViewViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewViewController.swift; sourceTree = "<group>"; };
+		4877AAC51E73DC0C008E0173 /* NotificationCenter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NotificationCenter.framework; path = System/Library/Frameworks/NotificationCenter.framework; sourceTree = SDKROOT; };
+		487FA51D1E0272F500CE5322 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		487FA51E1E0272F500CE5322 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		487FA5221E02731F00CE5322 /* LoginServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginServiceManager.swift; sourceTree = "<group>"; };
+		487FA5231E02731F00CE5322 /* LoginWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginWebService.swift; sourceTree = "<group>"; };
+		4880E82F1E2D2B4D007D4692 /* ProfileEditViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileEditViewController.swift; sourceTree = "<group>"; };
+		488212611E01285200D3BE30 /* GoValet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoValet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		488212641E01285200D3BE30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		488212661E01285200D3BE30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		488212691E01285200D3BE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4882126B1E01285200D3BE30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4882126E1E01285200D3BE30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		488212751E01285200D3BE30 /* GoValetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoValetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		488212791E01285200D3BE30 /* GoValetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoValetTests.swift; sourceTree = "<group>"; };
+		4882127B1E01285200D3BE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488212801E01285200D3BE30 /* GoValetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoValetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		488212841E01285200D3BE30 /* GoValetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoValetUITests.swift; sourceTree = "<group>"; };
+		488212861E01285200D3BE30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		488212961E01303000D3BE30 /* BaseWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseWebService.swift; sourceTree = "<group>"; };
+		4882129B1E01307800D3BE30 /* WebServiceTaskManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceTaskManager.swift; sourceTree = "<group>"; };
+		4882129C1E01307800D3BE30 /* WebServiceTaskManagerProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebServiceTaskManagerProtocol.swift; sourceTree = "<group>"; };
+		4882129F1E01309300D3BE30 /* AppSharedInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSharedInfo.swift; sourceTree = "<group>"; };
+		488212A01E01309300D3BE30 /* ExtensionMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionMethods.swift; sourceTree = "<group>"; };
+		488212A11E01309300D3BE30 /* UtilityMethods.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UtilityMethods.swift; sourceTree = "<group>"; };
+		488212A21E01309300D3BE30 /* Validator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validator.swift; sourceTree = "<group>"; };
+		488212A71E01310400D3BE30 /* UserInfo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfo.swift; sourceTree = "<group>"; };
+		48B9421D1E65F03E0074C8EF /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		48B9421E1E65F03E0074C8EF /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		48B9421F1E65F03E0074C8EF /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		48DD90131E37A4770033DA36 /* ManagerHomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManagerHomeViewController.swift; sourceTree = "<group>"; };
+		48DD90161E37B85A0033DA36 /* ValetManagerWebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValetManagerWebService.swift; sourceTree = "<group>"; };
+		48DD90181E37B89A0033DA36 /* ValetServiceManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValetServiceManager.swift; sourceTree = "<group>"; };
+		48ED12921E6B2EBB00303072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = Base.lproj/getit.png; sourceTree = "<group>"; };
+		48ED12941E6B2EBD00303072 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = ar.lproj/getit.png; sourceTree = "<group>"; };
+		48ED12961E6B2F0D00303072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/getit@2x.png"; sourceTree = "<group>"; };
+		48ED12981E6B2F0F00303072 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = "ar.lproj/getit@2x.png"; sourceTree = "<group>"; };
+		48ED129A1E6B2F2C00303072 /* Base */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Base; path = "Base.lproj/getit@3x.png"; sourceTree = "<group>"; };
+		48ED129C1E6B2F2E00303072 /* ar */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = ar; path = "ar.lproj/getit@3x.png"; sourceTree = "<group>"; };
+		4B7E9A0E2616719DB6A7F5E6 /* Pods-GoValetTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoValetTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoValetTests/Pods-GoValetTests.debug.xcconfig"; sourceTree = "<group>"; };
+		546C6ECBF6F6D3384D0EE393 /* Pods-GoValet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoValet.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoValet/Pods-GoValet.release.xcconfig"; sourceTree = "<group>"; };
+		59A583839BBECD5039BDA012 /* Pods_GoValet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoValet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0028B088245C5969D39BEF6 /* Pods-GoValetUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoValetUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoValetUITests/Pods-GoValetUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A3809C015FA44E7C84E35CCF /* Pods_GoValetUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoValetUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E59BEB52B4A23FE646F820EC /* Pods-GoValetUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoValetUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoValetUITests/Pods-GoValetUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FD0381D29FF041D4FA980B0F /* Pods-GoValet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoValet.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoValet/Pods-GoValet.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4882125E1E01285200D3BE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A082530C3D1BBB3B57672D5E /* Pods_GoValet.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488212721E01285200D3BE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39A682F99E9664511218237D /* Pods_GoValetTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4882127D1E01285200D3BE30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C12C183E5C21F17C757FE6FD /* Pods_GoValetUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3BA4597D5C2DE7E2B098F008 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FD0381D29FF041D4FA980B0F /* Pods-GoValet.debug.xcconfig */,
+				546C6ECBF6F6D3384D0EE393 /* Pods-GoValet.release.xcconfig */,
+				4B7E9A0E2616719DB6A7F5E6 /* Pods-GoValetTests.debug.xcconfig */,
+				2EFC4B7C90B81909F559030D /* Pods-GoValetTests.release.xcconfig */,
+				E59BEB52B4A23FE646F820EC /* Pods-GoValetUITests.debug.xcconfig */,
+				A0028B088245C5969D39BEF6 /* Pods-GoValetUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		48003FC11E127CE0006EA922 /* CustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				48003FC21E127D07006EA922 /* SideMenuCell.swift */,
+				48003FC41E127D1D006EA922 /* UserProfileCell.swift */,
+			);
+			name = CustomCell;
+			sourceTree = "<group>";
+		};
+		4800CD0F1E051E400024F9B0 /* HomeVC */ = {
+			isa = PBXGroup;
+			children = (
+				48DD90121E37A45A0033DA36 /* ManagerHomeView */,
+				483E43CB1E13BACD002304E8 /* HotelSelectionViews */,
+				4800CD101E051E530024F9B0 /* HomeViewController.swift */,
+			);
+			name = HomeVC;
+			sourceTree = "<group>";
+		};
+		4800CD121E054A690024F9B0 /* SideMenu */ = {
+			isa = PBXGroup;
+			children = (
+				48003FC11E127CE0006EA922 /* CustomCell */,
+				4800CD131E054A7C0024F9B0 /* SideMenuListViewController.swift */,
+			);
+			name = SideMenu;
+			sourceTree = "<group>";
+		};
+		4812F4881E1EA6D7009B7E7F /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				4812F4891E1EA6F1009B7E7F /* ProfileViewController.swift */,
+				4880E82F1E2D2B4D007D4692 /* ProfileEditViewController.swift */,
+				481192231E350E3800141186 /* CarListTableViewCell.swift */,
+				481192251E351D5400141186 /* AddCarViewController.swift */,
+			);
+			name = Profile;
+			sourceTree = "<group>";
+		};
+		483E43C61E13B69E002304E8 /* HomeViewServices */ = {
+			isa = PBXGroup;
+			children = (
+				483E43C71E13B6F9002304E8 /* UserServiceTaskManager.swift */,
+				483E43C91E13B72D002304E8 /* UserOperationService.swift */,
+			);
+			name = HomeViewServices;
+			sourceTree = "<group>";
+		};
+		483E43CB1E13BACD002304E8 /* HotelSelectionViews */ = {
+			isa = PBXGroup;
+			children = (
+				483E43CC1E13BAE8002304E8 /* Hotel.swift */,
+				483E43CE1E13CC65002304E8 /* HotelListCell.swift */,
+			);
+			name = HotelSelectionViews;
+			sourceTree = "<group>";
+		};
+		483E43D01E158BDA002304E8 /* Payment */ = {
+			isa = PBXGroup;
+			children = (
+				483E43D11E158BF2002304E8 /* PaymentViewController.swift */,
+				4870D3901E561F170096DA63 /* WebViewViewController.swift */,
+			);
+			name = Payment;
+			sourceTree = "<group>";
+		};
+		483FF98E1E31102500E2236B /* HistoryViewController */ = {
+			isa = PBXGroup;
+			children = (
+				483FF98F1E31105400E2236B /* HistoryViewController.swift */,
+				483FF9911E31150100E2236B /* HistoryTableViewCell.swift */,
+			);
+			name = HistoryViewController;
+			sourceTree = "<group>";
+		};
+		483FF9931E3116F300E2236B /* History */ = {
+			isa = PBXGroup;
+			children = (
+				483FF9961E31179200E2236B /* CommonWebService.swift */,
+				483FF9981E3117D500E2236B /* CommonTaskManager.swift */,
+			);
+			name = History;
+			sourceTree = "<group>";
+		};
+		487FA51C1E02721300CE5322 /* Login&Signup */ = {
+			isa = PBXGroup;
+			children = (
+				487FA51D1E0272F500CE5322 /* LoginViewController.swift */,
+				487FA51E1E0272F500CE5322 /* SignUpViewController.swift */,
+			);
+			name = "Login&Signup";
+			sourceTree = "<group>";
+		};
+		487FA5211E02730700CE5322 /* Login&Signup */ = {
+			isa = PBXGroup;
+			children = (
+				487FA5221E02731F00CE5322 /* LoginServiceManager.swift */,
+				487FA5231E02731F00CE5322 /* LoginWebService.swift */,
+			);
+			name = "Login&Signup";
+			sourceTree = "<group>";
+		};
+		488212581E01285200D3BE30 = {
+			isa = PBXGroup;
+			children = (
+				488212631E01285200D3BE30 /* GoValet */,
+				488212781E01285200D3BE30 /* GoValetTests */,
+				488212831E01285200D3BE30 /* GoValetUITests */,
+				488212621E01285200D3BE30 /* Products */,
+				3BA4597D5C2DE7E2B098F008 /* Pods */,
+				4AC9003822EC2AF5853EA970 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		488212621E01285200D3BE30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				488212611E01285200D3BE30 /* GoValet.app */,
+				488212751E01285200D3BE30 /* GoValetTests.xctest */,
+				488212801E01285200D3BE30 /* GoValetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		488212631E01285200D3BE30 /* GoValet */ = {
+			isa = PBXGroup;
+			children = (
+				48ED128A1E6B2D6F00303072 /* Images */,
+				488212981E01304400D3BE30 /* WebService */,
+				488212951E012EA700D3BE30 /* Controllers */,
+				488212941E012E9E00D3BE30 /* Lib */,
+				488212931E012E8800D3BE30 /* Utilities */,
+				488212921E012E7900D3BE30 /* BaseViewContoller */,
+				488212641E01285200D3BE30 /* AppDelegate.swift */,
+				488212661E01285200D3BE30 /* ViewController.swift */,
+				488212681E01285200D3BE30 /* Main.storyboard */,
+				4882126B1E01285200D3BE30 /* Assets.xcassets */,
+				4882126D1E01285200D3BE30 /* LaunchScreen.storyboard */,
+				483A52761E71C43D002701C8 /* Info.plist */,
+				483A52891E71CB62002701C8 /* InfoPlist.strings */,
+				485B4AD31E4E2873001E2C44 /* Localizable.strings */,
+			);
+			path = GoValet;
+			sourceTree = "<group>";
+		};
+		488212781E01285200D3BE30 /* GoValetTests */ = {
+			isa = PBXGroup;
+			children = (
+				488212791E01285200D3BE30 /* GoValetTests.swift */,
+				4882127B1E01285200D3BE30 /* Info.plist */,
+			);
+			path = GoValetTests;
+			sourceTree = "<group>";
+		};
+		488212831E01285200D3BE30 /* GoValetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				488212841E01285200D3BE30 /* GoValetUITests.swift */,
+				488212861E01285200D3BE30 /* Info.plist */,
+			);
+			path = GoValetUITests;
+			sourceTree = "<group>";
+		};
+		488212921E012E7900D3BE30 /* BaseViewContoller */ = {
+			isa = PBXGroup;
+			children = (
+				4800CD0D1E051DD90024F9B0 /* BaseViewController.swift */,
+			);
+			name = BaseViewContoller;
+			sourceTree = "<group>";
+		};
+		488212931E012E8800D3BE30 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				488212A71E01310400D3BE30 /* UserInfo.swift */,
+				4882129F1E01309300D3BE30 /* AppSharedInfo.swift */,
+				488212A01E01309300D3BE30 /* ExtensionMethods.swift */,
+				488212A11E01309300D3BE30 /* UtilityMethods.swift */,
+				488212A21E01309300D3BE30 /* Validator.swift */,
+			);
+			name = Utilities;
+			sourceTree = "<group>";
+		};
+		488212941E012E9E00D3BE30 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				483E43C41E13B636002304E8 /* OneShotLocationManager.swift */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		488212951E012EA700D3BE30 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				483FF98E1E31102500E2236B /* HistoryViewController */,
+				4812F4881E1EA6D7009B7E7F /* Profile */,
+				483E43D01E158BDA002304E8 /* Payment */,
+				4800CD121E054A690024F9B0 /* SideMenu */,
+				4800CD0F1E051E400024F9B0 /* HomeVC */,
+				487FA51C1E02721300CE5322 /* Login&Signup */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		488212981E01304400D3BE30 /* WebService */ = {
+			isa = PBXGroup;
+			children = (
+				48DD90151E37B83F0033DA36 /* ValetManager */,
+				483FF9931E3116F300E2236B /* History */,
+				483E43C61E13B69E002304E8 /* HomeViewServices */,
+				487FA5211E02730700CE5322 /* Login&Signup */,
+				4882129A1E01305300D3BE30 /* BaseTaskManager */,
+				488212991E01304C00D3BE30 /* BaseService */,
+			);
+			name = WebService;
+			sourceTree = "<group>";
+		};
+		488212991E01304C00D3BE30 /* BaseService */ = {
+			isa = PBXGroup;
+			children = (
+				488212961E01303000D3BE30 /* BaseWebService.swift */,
+			);
+			name = BaseService;
+			sourceTree = "<group>";
+		};
+		4882129A1E01305300D3BE30 /* BaseTaskManager */ = {
+			isa = PBXGroup;
+			children = (
+				4882129B1E01307800D3BE30 /* WebServiceTaskManager.swift */,
+				4882129C1E01307800D3BE30 /* WebServiceTaskManagerProtocol.swift */,
+			);
+			name = BaseTaskManager;
+			sourceTree = "<group>";
+		};
+		48DD90121E37A45A0033DA36 /* ManagerHomeView */ = {
+			isa = PBXGroup;
+			children = (
+				48DD90131E37A4770033DA36 /* ManagerHomeViewController.swift */,
+				485B775D1E57725E0005D659 /* StaffCountUIViewController.swift */,
+				486EC2CA1E3A4E8C009C21C3 /* RequestTableViewCell.swift */,
+			);
+			name = ManagerHomeView;
+			sourceTree = "<group>";
+		};
+		48DD90151E37B83F0033DA36 /* ValetManager */ = {
+			isa = PBXGroup;
+			children = (
+				48DD90161E37B85A0033DA36 /* ValetManagerWebService.swift */,
+				48DD90181E37B89A0033DA36 /* ValetServiceManager.swift */,
+			);
+			name = ValetManager;
+			sourceTree = "<group>";
+		};
+		48ED128A1E6B2D6F00303072 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				48ED129B1E6B2F2C00303072 /* getit@3x.png */,
+				48ED12971E6B2F0D00303072 /* getit@2x.png */,
+				48ED12931E6B2EBB00303072 /* getit.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
+		4AC9003822EC2AF5853EA970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4877AAC51E73DC0C008E0173 /* NotificationCenter.framework */,
+				59A583839BBECD5039BDA012 /* Pods_GoValet.framework */,
+				24E5C4D4BE12C7D9B35E8D8C /* Pods_GoValetTests.framework */,
+				A3809C015FA44E7C84E35CCF /* Pods_GoValetUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		488212601E01285200D3BE30 /* GoValet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488212891E01285200D3BE30 /* Build configuration list for PBXNativeTarget "GoValet" */;
+			buildPhases = (
+				E87BEBAD941BC684777CDD49 /* [CP] Check Pods Manifest.lock */,
+				4882125D1E01285200D3BE30 /* Sources */,
+				4882125E1E01285200D3BE30 /* Frameworks */,
+				4882125F1E01285200D3BE30 /* Resources */,
+				FB33AE94EC2742192619633A /* [CP] Embed Pods Frameworks */,
+				C4B27C4FBCA70781A96BC966 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GoValet;
+			productName = GoValet;
+			productReference = 488212611E01285200D3BE30 /* GoValet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		488212741E01285200D3BE30 /* GoValetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4882128C1E01285200D3BE30 /* Build configuration list for PBXNativeTarget "GoValetTests" */;
+			buildPhases = (
+				49F8F183BB796B9D363A207E /* [CP] Check Pods Manifest.lock */,
+				488212711E01285200D3BE30 /* Sources */,
+				488212721E01285200D3BE30 /* Frameworks */,
+				488212731E01285200D3BE30 /* Resources */,
+				CA15EA2347CD905B5BE00230 /* [CP] Embed Pods Frameworks */,
+				C56B9A1F468E9E9AB2C8509C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488212771E01285200D3BE30 /* PBXTargetDependency */,
+			);
+			name = GoValetTests;
+			productName = GoValetTests;
+			productReference = 488212751E01285200D3BE30 /* GoValetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4882127F1E01285200D3BE30 /* GoValetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4882128F1E01285200D3BE30 /* Build configuration list for PBXNativeTarget "GoValetUITests" */;
+			buildPhases = (
+				27DFCB55AB124A62FB0AC6F3 /* [CP] Check Pods Manifest.lock */,
+				4882127C1E01285200D3BE30 /* Sources */,
+				4882127D1E01285200D3BE30 /* Frameworks */,
+				4882127E1E01285200D3BE30 /* Resources */,
+				5258A6794C1EDB565964143B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				488212821E01285200D3BE30 /* PBXTargetDependency */,
+			);
+			name = GoValetUITests;
+			productName = GoValetUITests;
+			productReference = 488212801E01285200D3BE30 /* GoValetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		488212591E01285200D3BE30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ajeesh T S";
+				TargetAttributes = {
+					488212601E01285200D3BE30 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 8448H67J5S;
+						LastSwiftMigration = 0830;
+						SystemCapabilities = {
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+					488212741E01285200D3BE30 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 488212601E01285200D3BE30;
+					};
+					4882127F1E01285200D3BE30 = {
+						CreatedOnToolsVersion = 7.3.1;
+						LastSwiftMigration = 0830;
+						TestTargetID = 488212601E01285200D3BE30;
+					};
+				};
+			};
+			buildConfigurationList = 4882125C1E01285200D3BE30 /* Build configuration list for PBXProject "GoValet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				ar,
+			);
+			mainGroup = 488212581E01285200D3BE30;
+			productRefGroup = 488212621E01285200D3BE30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				488212601E01285200D3BE30 /* GoValet */,
+				488212741E01285200D3BE30 /* GoValetTests */,
+				4882127F1E01285200D3BE30 /* GoValetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4882125F1E01285200D3BE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4882126F1E01285200D3BE30 /* LaunchScreen.storyboard in Resources */,
+				483A52771E71C43D002701C8 /* Info.plist in Resources */,
+				48ED12991E6B2F2C00303072 /* getit@3x.png in Resources */,
+				485B4AD11E4E2873001E2C44 /* Localizable.strings in Resources */,
+				4882126C1E01285200D3BE30 /* Assets.xcassets in Resources */,
+				48ED12911E6B2EBB00303072 /* getit.png in Resources */,
+				48ED12951E6B2F0D00303072 /* getit@2x.png in Resources */,
+				483A52871E71CB62002701C8 /* InfoPlist.strings in Resources */,
+				4882126A1E01285200D3BE30 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488212731E01285200D3BE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4882127E1E01285200D3BE30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		27DFCB55AB124A62FB0AC6F3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		49F8F183BB796B9D363A207E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5258A6794C1EDB565964143B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoValetUITests/Pods-GoValetUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4B27C4FBCA70781A96BC966 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoValet/Pods-GoValet-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C56B9A1F468E9E9AB2C8509C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoValetTests/Pods-GoValetTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CA15EA2347CD905B5BE00230 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoValetTests/Pods-GoValetTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E87BEBAD941BC684777CDD49 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FB33AE94EC2742192619633A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoValet/Pods-GoValet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4882125D1E01285200D3BE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4882129E1E01307800D3BE30 /* WebServiceTaskManagerProtocol.swift in Sources */,
+				485B775E1E57725E0005D659 /* StaffCountUIViewController.swift in Sources */,
+				4880E8301E2D2B4D007D4692 /* ProfileEditViewController.swift in Sources */,
+				4870D3911E561F170096DA63 /* WebViewViewController.swift in Sources */,
+				488212A61E01309300D3BE30 /* Validator.swift in Sources */,
+				483FF9991E3117D500E2236B /* CommonTaskManager.swift in Sources */,
+				48DD90191E37B89A0033DA36 /* ValetServiceManager.swift in Sources */,
+				483E43CD1E13BAE8002304E8 /* Hotel.swift in Sources */,
+				488212971E01303000D3BE30 /* BaseWebService.swift in Sources */,
+				48003FC51E127D1D006EA922 /* UserProfileCell.swift in Sources */,
+				486EC2CB1E3A4E8C009C21C3 /* RequestTableViewCell.swift in Sources */,
+				48DD90171E37B85A0033DA36 /* ValetManagerWebService.swift in Sources */,
+				488212A41E01309300D3BE30 /* ExtensionMethods.swift in Sources */,
+				483FF9921E31150100E2236B /* HistoryTableViewCell.swift in Sources */,
+				4800CD141E054A7C0024F9B0 /* SideMenuListViewController.swift in Sources */,
+				481192241E350E3800141186 /* CarListTableViewCell.swift in Sources */,
+				48003FC31E127D07006EA922 /* SideMenuCell.swift in Sources */,
+				488212671E01285200D3BE30 /* ViewController.swift in Sources */,
+				4800CD0E1E051DD90024F9B0 /* BaseViewController.swift in Sources */,
+				4812F48A1E1EA6F1009B7E7F /* ProfileViewController.swift in Sources */,
+				488212651E01285200D3BE30 /* AppDelegate.swift in Sources */,
+				487FA5251E02731F00CE5322 /* LoginWebService.swift in Sources */,
+				487FA5201E0272F500CE5322 /* SignUpViewController.swift in Sources */,
+				487FA5241E02731F00CE5322 /* LoginServiceManager.swift in Sources */,
+				483E43CF1E13CC65002304E8 /* HotelListCell.swift in Sources */,
+				488212A31E01309300D3BE30 /* AppSharedInfo.swift in Sources */,
+				483E43C81E13B6F9002304E8 /* UserServiceTaskManager.swift in Sources */,
+				483FF9901E31105400E2236B /* HistoryViewController.swift in Sources */,
+				483E43D21E158BF2002304E8 /* PaymentViewController.swift in Sources */,
+				4800CD111E051E530024F9B0 /* HomeViewController.swift in Sources */,
+				4882129D1E01307800D3BE30 /* WebServiceTaskManager.swift in Sources */,
+				488212A81E01310400D3BE30 /* UserInfo.swift in Sources */,
+				481192261E351D5400141186 /* AddCarViewController.swift in Sources */,
+				488212A51E01309300D3BE30 /* UtilityMethods.swift in Sources */,
+				48DD90141E37A4770033DA36 /* ManagerHomeViewController.swift in Sources */,
+				487FA51F1E0272F500CE5322 /* LoginViewController.swift in Sources */,
+				483E43CA1E13B72D002304E8 /* UserOperationService.swift in Sources */,
+				483E43C51E13B636002304E8 /* OneShotLocationManager.swift in Sources */,
+				483FF9971E31179200E2236B /* CommonWebService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		488212711E01285200D3BE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4882127A1E01285200D3BE30 /* GoValetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4882127C1E01285200D3BE30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488212851E01285200D3BE30 /* GoValetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		488212771E01285200D3BE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488212601E01285200D3BE30 /* GoValet */;
+			targetProxy = 488212761E01285200D3BE30 /* PBXContainerItemProxy */;
+		};
+		488212821E01285200D3BE30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 488212601E01285200D3BE30 /* GoValet */;
+			targetProxy = 488212811E01285200D3BE30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		483A52891E71CB62002701C8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				483A52881E71CB62002701C8 /* en */,
+				483A528A1E71CB64002701C8 /* ar */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		485B4AD31E4E2873001E2C44 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				485B4AD21E4E2873001E2C44 /* en */,
+				48B9421F1E65F03E0074C8EF /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		488212681E01285200D3BE30 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				488212691E01285200D3BE30 /* Base */,
+				48B9421D1E65F03E0074C8EF /* ar */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4882126D1E01285200D3BE30 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4882126E1E01285200D3BE30 /* Base */,
+				48B9421E1E65F03E0074C8EF /* ar */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		48ED12931E6B2EBB00303072 /* getit.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48ED12921E6B2EBB00303072 /* Base */,
+				48ED12941E6B2EBD00303072 /* ar */,
+			);
+			name = getit.png;
+			sourceTree = "<group>";
+		};
+		48ED12971E6B2F0D00303072 /* getit@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48ED12961E6B2F0D00303072 /* Base */,
+				48ED12981E6B2F0F00303072 /* ar */,
+			);
+			name = "getit@2x.png";
+			sourceTree = "<group>";
+		};
+		48ED129B1E6B2F2C00303072 /* getit@3x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				48ED129A1E6B2F2C00303072 /* Base */,
+				48ED129C1E6B2F2E00303072 /* ar */,
+			);
+			name = "getit@3x.png";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		488212871E01285200D3BE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GoGo Technologies Inc. (8448H67J5S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GoGo Technologies Inc. (8448H67J5S)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE = "8df8b62a-07e0-40ba-8279-69de78c8e776";
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		488212881E01285200D3BE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GoGo Technologies Inc. (8448H67J5S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GoGo Technologies Inc. (8448H67J5S)";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PROVISIONING_PROFILE = "8df8b62a-07e0-40ba-8279-69de78c8e776";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4882128A1E01285200D3BE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FD0381D29FF041D4FA980B0F /* Pods-GoValet.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GoGo Technologies Inc. (8448H67J5S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GoGo Technologies Inc. (8448H67J5S)";
+				INFOPLIST_FILE = GoValet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushnotification.govaletAdhoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31104059-ded4-4b74-8795-23597c5d9c3a";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4882128B1E01285200D3BE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 546C6ECBF6F6D3384D0EE393 /* Pods-GoValet.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: GoGo Technologies Inc. (8448H67J5S)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: GoGo Technologies Inc. (8448H67J5S)";
+				INFOPLIST_FILE = GoValet/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pushnotification.govaletAdhoc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "31104059-ded4-4b74-8795-23597c5d9c3a";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4882128D1E01285200D3BE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B7E9A0E2616719DB6A7F5E6 /* Pods-GoValetTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoValetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tastyspots.com.GoValetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoValet.app/GoValet";
+			};
+			name = Debug;
+		};
+		4882128E1E01285200D3BE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2EFC4B7C90B81909F559030D /* Pods-GoValetTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = GoValetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tastyspots.com.GoValetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GoValet.app/GoValet";
+			};
+			name = Release;
+		};
+		488212901E01285200D3BE30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E59BEB52B4A23FE646F820EC /* Pods-GoValetUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GoValetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tastyspots.com.GoValetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoValet;
+			};
+			name = Debug;
+		};
+		488212911E01285200D3BE30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0028B088245C5969D39BEF6 /* Pods-GoValetUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = GoValetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dev.tastyspots.com.GoValetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = GoValet;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4882125C1E01285200D3BE30 /* Build configuration list for PBXProject "GoValet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488212871E01285200D3BE30 /* Debug */,
+				488212881E01285200D3BE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488212891E01285200D3BE30 /* Build configuration list for PBXNativeTarget "GoValet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4882128A1E01285200D3BE30 /* Debug */,
+				4882128B1E01285200D3BE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4882128C1E01285200D3BE30 /* Build configuration list for PBXNativeTarget "GoValetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4882128D1E01285200D3BE30 /* Debug */,
+				4882128E1E01285200D3BE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4882128F1E01285200D3BE30 /* Build configuration list for PBXNativeTarget "GoValetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488212901E01285200D3BE30 /* Debug */,
+				488212911E01285200D3BE30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 488212591E01285200D3BE30 /* Project object */;
+}

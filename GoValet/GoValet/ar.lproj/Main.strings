@@ -1,0 +1,174 @@
+
+/* Class = "UIButton"; normalTitle = "NON MEMBER CAR"; ObjectID = "09h-gs-bJI"; */
+"09h-gs-bJI.normalTitle" = "سيارة غير العضويين";
+
+/* Class = "UILabel"; text = "1 Month Subscription 10 QR"; ObjectID = "1vp-uB-bGn"; */
+"1vp-uB-bGn.text" = " لمدة شهر إشتراك";
+
+/* Class = "UITextField"; placeholder = "Number"; ObjectID = "4ZB-nJ-d3Q"; */
+"4ZB-nJ-d3Q.placeholder" = "رقــم";
+
+/* Class = "UILabel"; text = "Location"; ObjectID = "5BK-Vs-wUo"; */
+"5BK-Vs-wUo.text" = "المــوقــع";
+
+/* Class = "UITextField"; placeholder = "Parking Count"; ObjectID = "5PS-fV-iP9"; */
+"5PS-fV-iP9.placeholder" = "عدد مواقف السيارات";
+
+/* Class = "UITextField"; placeholder = "Conform Password"; ObjectID = "5h3-gL-ZnT"; */
+"5h3-gL-ZnT.placeholder" = "التأكيد على كلمة السر";
+
+/* Class = "UITextField"; placeholder = "Shift Staff Number"; ObjectID = "68W-z7-RRA"; */
+"68W-z7-RRA.placeholder" = "رقم الموظف المناوب";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "7kM-dA-Pfj"; */
+"7kM-dA-Pfj.normalTitle" = "عرض";
+
+/* Class = "UILabel"; text = "Average Time : 10 min"; ObjectID = "7rP-Ga-Ruj"; */
+"7rP-Ga-Ruj.text" = "الـوقـت المتوقــع: 10 دقائق";
+
+/* Class = "UILabel"; text = "Great"; ObjectID = "90o-n4-gK1"; */
+"90o-n4-gK1.text" = "ممتاز";
+
+/* Class = "UITextField"; placeholder = "Car Name"; ObjectID = "95g-BI-2wu"; */
+"95g-BI-2wu.placeholder" = "اسم السيارة";
+
+/* Class = "UITextField"; placeholder = "Password/Pin"; ObjectID = "9eL-cf-wHU"; */
+"9eL-cf-wHU.placeholder" = "كلمة الس";
+
+/* Class = "UITextField"; text = "qwerty"; ObjectID = "9eL-cf-wHU"; */
+"9eL-cf-wHU.text" = "";
+
+/* Class = "UIButton"; normalTitle = "Sign up"; ObjectID = "9mg-ur-uAI"; */
+"9mg-ur-uAI.normalTitle" = "مستخدم جديد";
+
+/* Class = "UIButton"; normalTitle = "Language"; ObjectID = "Cu3-p8-r8s"; */
+"Cu3-p8-r8s.normalTitle" = "اللغة";
+
+/* Class = "UIButton"; normalTitle = "Close"; ObjectID = "DFe-xU-95g"; */
+"DFe-xU-95g.normalTitle" = "قريب";
+
+/* Class = "UITextField"; placeholder = "Parking Count"; ObjectID = "DIV-EE-zic"; */
+"DIV-EE-zic.placeholder" = "عدد مواقف السيارات";
+
+/* Class = "UITextField"; placeholder = "Type Code"; ObjectID = "DqU-Pe-uvF"; */
+"DqU-Pe-uvF.placeholder" = "أدخل الرمز";
+
+/* Class = "UITextField"; placeholder = "E mail Address"; ObjectID = "FlM-iR-4ZO"; */
+"FlM-iR-4ZO.placeholder" = "البريد الألكتروني";
+
+/* Class = "UIButton"; normalTitle = "Edit Account"; ObjectID = "Gm2-NM-kTc"; */
+"Gm2-NM-kTc.normalTitle" = "تعديل الحساب";
+
+/* Class = "UITextField"; placeholder = "Shift Staff Number"; ObjectID = "H1b-GR-89W"; */
+"H1b-GR-89W.placeholder" = "رقم الموظف المناوب";
+
+/* Class = "UITextField"; placeholder = "User E-mail/User ID"; ObjectID = "H5w-vW-xOQ"; */
+"H5w-vW-xOQ.placeholder" = "البريد الالكتروني / اسم المستخدم";
+
+/* Class = "UITextField"; text = "ajeeshts9@gmail.com"; ObjectID = "H5w-vW-xOQ"; */
+"H5w-vW-xOQ.text" = "";
+
+/* Class = "UIButton"; normalTitle = "Sumbit"; ObjectID = "JwE-oK-jtR"; */
+"JwE-oK-jtR.normalTitle" = "عرض";
+
+/* Class = "UIButton"; normalTitle = "Capture Code"; ObjectID = "K7U-uP-Mim"; */
+"K7U-uP-Mim.normalTitle" = "القبض على القانون";
+
+/* Class = "UIButton"; normalTitle = "Change Photo"; ObjectID = "LDc-Ah-FyO"; */
+"LDc-Ah-FyO.normalTitle" = "تغيير الصورة";
+
+/* Class = "UILabel"; text = "Your Car is"; ObjectID = "MtE-FV-SIt"; */
+"MtE-FV-SIt.text" = "السيارة في";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "NYx-OD-CPD"; */
+"NYx-OD-CPD.normalTitle" = "إلــغــاء";
+
+/* Class = "UILabel"; text = "Average Time :"; ObjectID = "Oiz-CB-Lzx"; */
+"Oiz-CB-Lzx.text" = ":الـوقـت المتوقــع";
+
+/* Class = "UIButton"; normalTitle = "Date of Birth"; ObjectID = "Ooa-u2-6r0"; */
+"Ooa-u2-6r0.normalTitle" = "تاريخ الميلاد";
+
+/* Class = "UIButton"; normalTitle = "Forgot Password?"; ObjectID = "PB4-dP-czD"; */
+"PB4-dP-czD.normalTitle" = "نسيت كلمة السر";
+
+/* Class = "UIButton"; normalTitle = "Sign Out"; ObjectID = "QbU-wo-NlU"; */
+"QbU-wo-NlU.normalTitle" = "تسجيل الخروج";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "R4a-0e-uhI"; */
+"R4a-0e-uhI.placeholder" = "الإسم";
+
+/* Class = "UILabel"; text = "On the way"; ObjectID = "R4c-YS-00R"; */
+"R4c-YS-00R.text" = "طريقها إليك";
+
+/* Class = "UILabel"; text = "Pay as You Go 10  QR "; ObjectID = "Ruu-wi-Yln"; */
+"Ruu-wi-Yln.text" = "إدفع عند الخروج 10 ر.ق";
+
+/* Class = "UIButton"; normalTitle = "Remember me"; ObjectID = "SxN-if-Ty6"; */
+"SxN-if-Ty6.normalTitle" = "إحفظني / تذكرني";
+
+/* Class = "UIButton"; normalTitle = "My Cars"; ObjectID = "Zpc-Yy-bdn"; */
+"Zpc-Yy-bdn.normalTitle" = "سياراتنا";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "aue-rc-Uwe"; */
+"aue-rc-Uwe.placeholder" = "البريد الألكتروني";
+
+/* Class = "UIButton"; normalTitle = "Confirm"; ObjectID = "avp-pL-XSk"; */
+"avp-pL-XSk.normalTitle" = "تــاْكيـد";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "cHe-WF-AC2"; */
+"cHe-WF-AC2.normalTitle" = "X";
+
+/* Class = "UIButton"; normalTitle = "Ready"; ObjectID = "daG-eR-MsV"; */
+"daG-eR-MsV.normalTitle" = "جاهز/ة";
+
+/* Class = "UILabel"; text = "Shift Staff Number "; ObjectID = "fvo-ve-xJP"; */
+"fvo-ve-xJP.text" = "رقم الموظف المناوب";
+
+/* Class = "UIButton"; normalTitle = "Contact"; ObjectID = "gen-au-JJm"; */
+"gen-au-JJm.normalTitle" = "رسالة";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "hwT-AZ-PyO"; */
+"hwT-AZ-PyO.placeholder" = "الشهرة";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "iNC-m1-Ld9"; */
+"iNC-m1-Ld9.text" = "";
+
+/* Class = "UIButton"; normalTitle = "Sign in"; ObjectID = "ivJ-9k-itp"; */
+"ivJ-9k-itp.normalTitle" = "تسجيل الدخول";
+
+/* Class = "UILabel"; text = "CARS"; ObjectID = "jSM-er-ev9"; */
+"jSM-er-ev9.text" = "السيارات";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "k2I-2E-3Ce"; */
+"k2I-2E-3Ce.placeholder" = "الشهرة";
+
+/* Class = "UILabel"; text = "Upload Photo"; ObjectID = "lyP-Yc-laS"; */
+"lyP-Yc-laS.text" = "وضع صورة";
+
+/* Class = "UIButton"; normalTitle = "SUBMIT"; ObjectID = "n6n-2w-fNN"; */
+"n6n-2w-fNN.normalTitle" = "عرض";
+
+/* Class = "UIButton"; normalTitle = "X"; ObjectID = "pSM-hu-2aP"; */
+"pSM-hu-2aP.normalTitle" = "X";
+
+/* Class = "UIButton"; normalTitle = "Add New"; ObjectID = "quv-Ep-umj"; */
+"quv-Ep-umj.normalTitle" = "إضافة جديدة";
+
+/* Class = "UIButton"; normalTitle = "Manage Payment Methods"; ObjectID = "raT-PH-3Ry"; */
+"raT-PH-3Ry.normalTitle" = "إدارة طرق الدفع";
+
+/* Class = "UILabel"; text = "Mobile"; ObjectID = "wxF-CV-vYO"; */
+"wxF-CV-vYO.text" = "جـــوال";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "xcD-Ei-f62"; */
+"xcD-Ei-f62.placeholder" = "كلمة السر";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "xd3-4z-Kgf"; */
+"xd3-4z-Kgf.placeholder" = "الإسم";
+
+/* Class = "UILabel"; text = "By Clicking Confirm You Agree  To Go Valet Turms Of Use And Privacy Policy"; ObjectID = "ysA-Qf-3p6"; */
+"ysA-Qf-3p6.text" = "عند الضغط على التأكيد ل Go Valet تأكد على أحكام الإستخدام والخصوصية";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "yxS-Xf-1ni"; */
+"yxS-Xf-1ni.text" = "";

@@ -1,0 +1,35 @@
+/* 
+  Localizable.strings
+  GoValet
+
+  Created by Ajeesh T S on 10/02/17.
+  Copyright © 2017 Ajeesh T S. All rights reserved.
+*/
+
+"Warning!" = "!تحذير";
+"Please Enter Email" = "الرجاء أدخل البريد الالكتروني";
+"Please Enter Password" = "الرجاء إدخال كلمة المرور";
+"Please Enter Valid Email" = "الرجاء إدخال بريد إلكتروني صحيح";
+"Please verify your email address" = "يرجى التحقق من عنوان البريد الإلكتروني الخاص بك";
+"Resend" = "إعادة إرسال";
+"Cancel" = "إلغاء";
+"GPS access is restricted. In order to use tracking, please enable GPS in the Settigs app under Privacy, Location Services." = "يقتصر الوصول GPS. من أجل استخدام تتبع، يرجى تمكين GPS في التطبيق Settigs ضمن الخصوصية، خدمات الموقع.";
+
+"Go to Settings now" = "انتقل إلى إعدادات الآن";
+"You have been registered successfully, please Verfiy your Email" = "تم تسجيلك بنجاح، يرجى فتحقق البريد الإلكتروني الخاص بك";
+"Ok" = "حسنا";
+"By Clicking Confirm You Agree To Go Valet Turms Of Use And Privacy Policy." = "بالضغط تأكيد موافقتك على الذهاب من وإلى الجراج Turms الاستخدام وسياسة الخصوصية.";
+"Shift Staff Number" = "تحول عدد الموظفين";
+"Payment" = "الدفع";
+"Settings" = "ضبط";
+"History" = "التاريخ";
+"Help" = "مساعدة";
+"Logout" = "الخروج";
+"HISTORY" = "التاريخ";
+"SETTINGS" = "ضبـط";
+"EDIT ACCOUNT" = "تعديل الحساب";
+"PAYMENT SUBSCRIPTION" = "دفع الإشتراك";
+"Shift Staff Number" = "تحول عدد الموظفين";
+"sd" = "الـوقـت المتوقــع: 10 دقائق";
+"" = "";
+"" = "";
