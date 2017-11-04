@@ -2,7 +2,7 @@
 platform :ios, '9.0'
 
 target 'GoValet' do
-    pod 'Alamofire', '~> 3.0'
+    pod 'Alamofire', '~> 4.5'
     pod 'SwiftyJSON'
     pod 'MBProgressHUD’
     pod 'IQKeyboardManagerSwift'
@@ -18,7 +18,7 @@ target 'GoValet' do
     pod 'Fusuma', '0.6.0'
     pod 'CameraManager', '~> 2.2'
     pod 'MICountryPicker', :git => 'https://github.com/mustafaibrahim989/MICountryPicker.git', :branch => 'swift-2'
-    pod "CameraEngine"
+    pod 'CameraEngine'
   # Comment this line if you're not using Swift and don't want to use dynamic frameworks
   use_frameworks!
 

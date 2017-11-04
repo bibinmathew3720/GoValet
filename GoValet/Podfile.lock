@@ -1,6 +1,6 @@
 PODS:
   - AJCountryPicker (1.0.0.1)
-  - Alamofire (3.4.1)
+  - Alamofire (4.5.1)
   - CameraEngine (0.9.3)
   - CameraManager (2.2.4)
   - DatePickerDialog (1.1.4)
@@ -29,7 +29,7 @@ PODS:
 
 DEPENDENCIES:
   - AJCountryPicker
-  - Alamofire (~> 3.0)
+  - Alamofire (~> 4.5)
   - CameraEngine
   - CameraManager (~> 2.2)
   - DatePickerDialog
@@ -58,7 +58,7 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   AJCountryPicker: bbaf251f92c0b50388f15a9e59111b73d6e26cce
-  Alamofire: 01a82e2f6c0f860ade35534c8dd88be61bdef40c
+  Alamofire: 2d95912bf4c34f164fdfc335872e8c312acaea4a
   CameraEngine: e24a801f76bfb2e5ff61b11592f82dfc1b4dafc9
   CameraManager: 761f0d3dca325e8dabd46065f0b376798bca66bf
   DatePickerDialog: f23eaadaba1177d7f60ad58a57f81071df856fc9
@@ -76,6 +76,6 @@ SPEC CHECKSUMS:
   TOCropViewController: cec24e4385929683b217d08bfdc8791975cddc04
   UICollectionViewLeftAlignedLayout: 830bf6fa5bab9f9b464f62e3384f9d2e00b3c0f6
 
-PODFILE CHECKSUM: e7c05203890fb296596c20a257330842709ce082
+PODFILE CHECKSUM: 1a517ebef1cdf70570a9b0932c1897939923b3c2
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.2.1
